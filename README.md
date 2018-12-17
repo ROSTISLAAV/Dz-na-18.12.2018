@@ -30,15 +30,22 @@ print('додотні:',dod)
 
 
 3)
-import math
 a = [int(i) for i in input().split()]
 max , c = 0 , 0
 for i in range(len(a)):
-    c=float(a[i])
-    c=math.fabs(c)
+    c=int(a[i])
+    c=abs(c)
     if c>max:
         max=c
-print(int(max))
+print(max)
 
 
 4)
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+if abs(x1 - x2) == abs(y1 -y2):
+    print('YES')
+else:
+    print('NO')
