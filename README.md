@@ -30,3 +30,15 @@ print('додотні:',dod)
 
 
 3)
+import math
+a = [int(i) for i in input().split()]
+max , c = 0 , 0
+for i in range(len(a)):
+    c=float(a[i])
+    c=math.fabs(c)
+    if c>max:
+        max=c
+print(int(max))
+
+
+4)
