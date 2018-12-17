@@ -16,3 +16,17 @@ print('додотні:',dod)
 
 
 2)
+import random
+a , vid  , dod , b = [] , [] , [], int(input('кількість чисел'))
+for i in range (b):
+    a.append(int(random.uniform(-5,5)))
+    if a[i]<0:
+        vid.append(a[i])
+    elif a[i]>0:
+        dod.append(a[i])
+print(a)
+print('відємні:',vid)
+print('додотні:',dod)
+
+
+3)
